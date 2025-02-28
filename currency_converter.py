@@ -58,6 +58,9 @@ class CurrencyConverter:
         self.language = languages[(current_index + 1) % len(languages)]
         self.update_labels()
  
+
+#Hallo Elias
+
     def update_labels(self):
         # Sprache oben links anzeigen (immer in Englisch)
         if self.language == "de":
